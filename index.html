@@ -230,5 +230,16 @@ display: none;
   var AUTOHIDE = Boolean(0);
 </script>
 <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+<script type="text/javascript">
+function show() {
+    document.getElementById('scritta').className = 'visiblediv';
+    document.getElementById('p1').className = 'hiddendiv';
+}
+
+function hide() {
+    document.getElementById('scritta').className = 'hiddendiv';
+    document.getElementById('p1').className = 'visiblediv';
+}
+</script>
 </body>
 </html>
