@@ -218,12 +218,15 @@ text-align: center;
 .pix{
 justify-content: center;
 text-align: center;
-padding: 4%
+padding: 4%;
 }
 .pix2{
 justify-content: center;
 text-align: center;
-padding: 0.2%
+padding-top: 0%;
+padding-bottom: 4%;
+padding-left: 4%;
+padding-right: 4%;
 }
 .columnz{
 float: left;
