@@ -220,6 +220,11 @@ justify-content: center;
 text-align: center;
 padding: 4%
 }
+.pix2{
+justify-content: center;
+text-align: center;
+padding: 0.2%
+}
 .columnz{
 float: left;
 width: 23.83%;
