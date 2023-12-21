@@ -16,4 +16,4 @@ margin-bottom: 5%;
 font-family: 'Libre Caslon Text', serif; 
 font-size: 100%;
 }
-@media screen and (max-width: 1000px) { .bldes { margin-left: 8%; margin-right: 26%; } } @media screen and (max-width: 800px) { .bldes { margin-left: 6%; margin-right: 18%; } } @media screen and (max-width: 625px) { .bldes { margin-left: 4%; margin-right: 8%; } }
+@media screen and (max-width: 1000px) { .bldes { margin-left: 8%; margin-right: 26%; } } @media screen and (max-width: 800px) { .bldes { margin-left: 6%; margin-right: 18%; } } @media screen and (max-width: 625px) { .bldes { margin-left: 4%; margin-right: 8%; font-size: 96%; } }
