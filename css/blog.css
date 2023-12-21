@@ -9,10 +9,11 @@ text-align: left;
 }
 .bldes{
 text-align: left; 
-padding-left: 10%; 
-padding-right: 35%; 
+margin-left: 10%; 
+margin-right: 35%; 
 margin-top: 0.85%; 
 margin-bottom: 5%; 
 font-family: 'Libre Caslon Text', serif; 
 font-size: 100%;
 }
+@media screen and (max-width: 1000px) { .bldes { margin-left: 8%; margin-right: 30%; } } @media screen and (max-width: 800px) { .bldes { margin-left: 6%; margin-right: 23%; } } @media screen and (max-width: 625px) { .des { margin-left: 4%; margin-right: 14%; } }
