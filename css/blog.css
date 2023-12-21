@@ -16,3 +16,4 @@ margin-bottom: 5%;
 font-family: 'Libre Caslon Text', serif; 
 font-size: 100%;
 }
+@media screen and (max-width: 1000px) { .bdes { margin-left: 8%; margin-right: 26%; font-size: 97%; } } @media screen and (max-width: 800px) { .bdes { margin-left: 6%; margin-right: 22%; font-size: 94%; } } @media screen and (max-width: 625px) { .bdes { margin-left: 4%; margin-right: 18%; font-size: 91%; } }
