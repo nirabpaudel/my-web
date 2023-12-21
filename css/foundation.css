@@ -77,6 +77,15 @@ padding: 0.8%;
 justify-content: center;
 text-align: center;
 }
+.ppage{
+background-image: url("https://nirab21.github.io/my-web/pa.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+margin: 1.8%;
+padding: 0.8%;
+justify-content: center;
+text-align: center;
+}
 .ct1{
 display: flex;
 flex-direction: column;
