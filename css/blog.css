@@ -13,7 +13,7 @@ margin-left: 8%;
 margin-right: 35%; 
 margin-top: 0.85%; 
 margin-bottom: 5%; 
-font-family: 'Libre Caslon Text', serif; 
-font-size: 100%;
+font-family: 'EB Garamond', serif;
+font-size: 122%;
 }
 @media screen and (max-width: 1000px) { .bldes { margin-left: 7%; margin-right: 26%; } } @media screen and (max-width: 800px) { .bldes { margin-left: 5%; margin-right: 18%; } } @media screen and (max-width: 625px) { .bldes { margin-left: 3%; margin-right: 8%; } }
