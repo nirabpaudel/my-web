@@ -67,12 +67,6 @@ background-color: #6082B6;
 -webkit-transform: scale(1.03); 
 transform: scale(1.03); 
 }
-@media screen and (max-width: 500px) { 
-.btnl{ 
-font-size: 11px; 
-padding: 3.53px; 
-} 
-} 
 .btnr{ 
 background-color: #0F52BA; 
 color: #fff; 
@@ -93,9 +87,3 @@ background-color: #4682B4;
 -webkit-transform: scale(1.03); 
 transform: scale(1.03); 
 }
-@media screen and (max-width: 500px) { 
-.btnr{ 
-font-size: 11px; 
-padding: 3.53px; 
-} 
-} 
