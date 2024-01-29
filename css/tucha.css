@@ -84,7 +84,7 @@ font-family: 'Patrick Hand', cursive;
 display: inline-block; 
 font-size: 14px; 
 cursor: pointer; 
-margin-left: 100%;
+margin-left: 35%;
 transition: all 0.5s; 
 } 
 .btnr:hover{ 
