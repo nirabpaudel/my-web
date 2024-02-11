@@ -189,7 +189,7 @@ padding-right: 5px;
 padding-top: 5px;
 padding-bottom: 2%;
 }
-@media screen and (max-width: 1000px) { .columnz { width: 43.61%; } } 
+@media screen and (max-width: 1000px) { .columnz { width: 44.61%; } } 
 /* @media screen and (max-width: 520px) { .columnz { width: 100%; } } */
 .columnzx{
 float: left;
@@ -204,7 +204,7 @@ content: "";
 clear: both;
 display: table;
 }
-@media screen and (max-width: 1000px) { .columnzx { width: 43.61%; } } 
+@media screen and (max-width: 1000px) { .columnzx { width: 44.61%; } } 
 /* @media screen and (max-width: 520px) { .columnzx { width: 100%; } } */
 .btnv{
 background-color: #fff;
