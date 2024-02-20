@@ -50,4 +50,34 @@
 </div>
 </div>
 <div class="qpage"><h1 style="font-size: 230%; font-family: 'Open Sans', sans-serif; text-transform: uppercase; color: #3d586a; -webkit-user-select: none; -ms-user-select: none; user-select: none;">Contact</h2>
-<div class="grid">
+<div class="np-body">
+<div id="np-form">
+<h3 class="np-h3">Contact us</h3>
+<form id="np-form-id" class="np-form-class" method="post" action="contact-form-process.php"> 
+<div class="np-form-group">
+<label for="Name" class="np-label">Your name</label>
+<div class="np-input-group">
+<input type="text" id="Name" name="Name" class="np-form-control" required>
+</div>
+</div>
+<div class="np-form-group">
+<label for="Email" class="np-label">Your email address</label>
+<div class="np-input-group">
+<input type="email" id="Email" name="Email" class="np-form-control" required>
+</div>
+</div>
+<div class="np-form-group">
+<label for="Message" class="np-label">Your message</label>
+<div class="np-input-group">
+<textarea id="Message" name="Message" class="np-form-control" rows="6" maxlength="3000" required></textarea>
+</div>
+</div>
+<div class="np-form-group">
+<button type="submit" id="np-button" class="np-btn np-btn-primary np-btn-lg np-btn-block">Send Message</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
