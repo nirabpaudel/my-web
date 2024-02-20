@@ -39,7 +39,7 @@ if (isset($_POST['Email'])) {
     }
 
     if (strlen($message) < 2) {
-        $error_message .= 'The Message you entered do not appear to be valid.<br>';
+        $error_message .= 'The message you entered does not appear to be valid.<br>';
     }
 
     if (strlen($error_message) > 0) {
