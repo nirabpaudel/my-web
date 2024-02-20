@@ -2,7 +2,7 @@
 if (isset($_POST['Email'])) {
 
     $email_to = "info@nirabpaudel.com.np";
-    $email_subject = "Contact Form Submission";
+    $email_subject = "Contact";
 
     function problem($error)
     {
@@ -12,7 +12,7 @@ if (isset($_POST['Email'])) {
         echo "Please go back and fix these errors.<br><br>";
         die();
     }
-
+    
     if (
         !isset($_POST['Name']) ||
         !isset($_POST['Email']) ||
@@ -21,9 +21,9 @@ if (isset($_POST['Email'])) {
         problem('We are sorry, but there appears to be a problem with the form you submitted.');
     }
 
-    $name = $_POST['Name']; 
-    $email = $_POST['Email']; 
-    $message = $_POST['Message']; 
+    $name = $_POST['Name']; // required
+    $email = $_POST['Email']; // required
+    $message = $_POST['Message']; // required
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -62,8 +62,11 @@ if (isset($_POST['Email'])) {
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
+?>
 
 
     Thank you for contacting us. We will be in touch with you soon.
 
+<?php
+}
 ?>
