@@ -94,7 +94,9 @@
 #menu li
 {
   padding: 18px 0;
-  font-size: 22px;
+  font-size: 25px;
+  font-family: 'Alegreya Sans SC', sans-serif; 
+  text-transform: uppercase;
 }
 
 #menuToggle input:checked ~ ul
