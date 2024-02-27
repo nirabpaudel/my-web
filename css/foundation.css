@@ -3,7 +3,7 @@
   display: block;
   position: relative;
   top: 43px;
-  left: 15px;
+  left: 17px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -78,7 +78,7 @@
 #menu
 {
   position: absolute;
-  width: 98%;
+  width: 90%;
   height: 100vh;
   margin: -100px 0 0 -50px;
   padding: 50px;
