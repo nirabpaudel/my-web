@@ -78,7 +78,7 @@
 #menu
 {
   position: absolute;
-  width: 90%;
+  width: calc(100vw-17px);
   height: 100vh;
   margin: -100px 0 0 -50px;
   padding: 50px;
