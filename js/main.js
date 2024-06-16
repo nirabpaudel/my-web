@@ -1,3 +1,3 @@
 navlink.addEventListener('click', () => {
-  document.getElementById('menu').classList.add('closed');
+  document.getElementById('menuToggle').classList.add('closed');
 });
