@@ -65,13 +65,18 @@ background-position: 50% 50%;
   
 .cbox{
     display: flex;
-    max-width: 500px;
+    max-width: 600px;
     margin: 20px auto;
     padding: 20px;
     background-image: url("https://nirabpaudel.com.np/img/tuc.webp");
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
+   @media screen and (max-width: 600px) {
+  .cbox {
+    max-width: 90%;
+  }
+}
    .content {
     flex: 1;
     padding: 20px;
