@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
       menuToggle.style.top = '55px'; 
       menuToggle.style.left = '29px'; 
     } else {
+      toggle.checked = false;
       menuToggle.style.position = 'relative';
       menuToggle.style.top = originalTop;
       menuToggle.style.left = originalLeft;
