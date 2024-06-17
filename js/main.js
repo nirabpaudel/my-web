@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var toggle = document.getElementById('menuToggle');
+  var toggle = document.getElementById('toggleMenu');
   var menuItems = document.querySelectorAll('#menu li a');
 
   menuItems.forEach(function(item) {
