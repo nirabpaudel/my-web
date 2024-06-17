@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   menuItems.forEach(function(item) {
     item.addEventListener('click', function() {
-      toggle.checked = false; // Close the menu by unchecking the checkbox
+      toggle.checked = false;
     });
   });
 });
