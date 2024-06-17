@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
   toggle.addEventListener('change', function() {
     if (toggle.checked) {
       menuToggle.style.position = 'fixed';
-      menuToggle.style.top = '53px'; 
-      menuToggle.style.left = '27px'; 
+      menuToggle.style.top = '55px'; 
+      menuToggle.style.left = '29px'; 
     } else {
       menuToggle.style.position = 'relative';
       menuToggle.style.top = originalTop;
