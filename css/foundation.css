@@ -335,7 +335,7 @@ font-family: 'Lato', sans-serif;
 .btnv:hover {
 background-color: #f0f0f0;
 text-decoration: underline;
-border: 1px solid black;
+border: 2px solid black;
 }
 
 .lpage{
