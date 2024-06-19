@@ -3,6 +3,7 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 #menuToggle
 {
   display: block;
@@ -192,6 +193,15 @@ padding: 0 1rem;
 .des{
 color: #000;
 font-family: 'EB Garamond', serif;
+font-size: 140%;
+margin-left: 25%;
+margin-right: 25%; 
+}
+.des2{
+color: #000;
+font-family: "PT Sans", sans-serif;
+font-weight: 400;
+font-style: normal;
 font-size: 140%;
 margin-left: 25%;
 margin-right: 25%; 
