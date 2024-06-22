@@ -357,8 +357,8 @@ border: 1px dashed black;
 background-color: #fff;
 border: none;
 color: #333;
-font-size: 1rem;
-padding: 0.6rem 2.3rem;
+font-size: 0.8rem;
+padding: 0.4rem 1.6rem;
 margin-right: 4px;
 text-align: center;
 text-transform: uppercase;
@@ -369,7 +369,6 @@ font-family: 'Lato', sans-serif;
 
 .btnw1:hover {
 background-color: #f0f0f0;
-text-decoration: underline;
 border: 1px dashed black;
 }
 
@@ -377,8 +376,8 @@ border: 1px dashed black;
 background-color: #fff;
 border: none;
 color: #333;
-font-size: 1rem;
-padding: 0.6rem 2.3rem;
+font-size: 0.8rem;
+padding: 0.4rem 1.6rem;
 margin-left: 4px;
 text-align: center;
 text-transform: uppercase;
@@ -389,7 +388,6 @@ font-family: 'Lato', sans-serif;
 
 .btnw2:hover {
 background-color: #f0f0f0;
-text-decoration: underline;
 border: 1px dashed black;
 }
 
