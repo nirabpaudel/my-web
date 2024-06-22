@@ -369,7 +369,8 @@ text-decoration: none;
 text-decoration: underline;
 }
 .btls{
-background-color: #1DB954; 
+/* background-color: #1DB954; */
+background-color: #2C2D2D;
 color: #fff; 
 font-family: 'Noto Sans', sans-serif; font-size: 18px; -webkit-user-select: none; -ms-user-select: none; user-select: none;
 height: 16px;
