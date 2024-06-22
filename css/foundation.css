@@ -369,12 +369,13 @@ text-decoration: none;
 text-decoration: underline;
 }
 .btls{
-background-color: #C30010; 
+background-color: #1DB954; 
 color: #fff; 
 font-family: 'Noto Sans', sans-serif; font-size: 18px; -webkit-user-select: none; -ms-user-select: none; user-select: none;
-height: 18px;
+height: 16px;
 padding: 7px; 
 margin-top: 3px;
+margin-right: 3px;
 border-radius: 1rem; 
 text-decoration: none; 
 text-align: center; 
@@ -383,12 +384,13 @@ cursor: pointer;
 transition: all 0.5s; 
 } 
 .btll{
-background-color: #C30010; 
+background-color: #C3000D; 
 color: #fff; 
 font-family: 'Noto Sans', sans-serif; font-size: 18px; -webkit-user-select: none; -ms-user-select: none; user-select: none;
 height: 18px;
-padding: 7px; 
+padding: 6px; 
 margin-top: 3px;
+margin-left: 3px;
 border-radius: 1rem; 
 text-decoration: none; 
 text-align: center; 
