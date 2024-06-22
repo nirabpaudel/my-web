@@ -9,3 +9,4 @@ Disallow: /img/essentials/in-icon.png
 Disallow: /img/essentials/ext.png
 Disallow: /img/essentials/ko-fi.webp
 Disallow: /img/nirab.jpg
+Disallow: /img/co/*
