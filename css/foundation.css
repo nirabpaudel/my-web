@@ -368,3 +368,31 @@ text-decoration: none;
 .lpage a:hover{
 text-decoration: underline;
 }
+.btls{
+background-color: #C30010; 
+color: #fff; 
+font-family: 'Noto Sans', sans-serif; font-size: 18px; -webkit-user-select: none; -ms-user-select: none; user-select: none;
+height: 18px;
+padding: 7px; 
+margin-top: 3px;
+border-radius: 1rem; 
+text-decoration: none; 
+text-align: center; 
+display: inline-block; 
+cursor: pointer; 
+transition: all 0.5s; 
+} 
+.btll{
+background-color: #C30010; 
+color: #fff; 
+font-family: 'Noto Sans', sans-serif; font-size: 18px; -webkit-user-select: none; -ms-user-select: none; user-select: none;
+height: 18px;
+padding: 7px; 
+margin-top: 3px;
+border-radius: 1rem; 
+text-decoration: none; 
+text-align: center; 
+display: inline-block; 
+cursor: pointer; 
+transition: all 0.5s; 
+} 
