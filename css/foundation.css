@@ -353,6 +353,46 @@ text-decoration: underline;
 border: 1px dashed black;
 }
 
+.btnw1{
+background-color: #fff;
+border: none;
+color: #333;
+font-size: 1rem;
+padding: 0.6rem 2.3rem;
+margin-right: 4px;
+text-align: center;
+text-transform: uppercase;
+transition: background-color 0.3s ease;
+text-decoration: none;
+font-family: 'Lato', sans-serif;
+}
+
+.btnw1:hover {
+background-color: #f0f0f0;
+text-decoration: underline;
+border: 1px dashed black;
+}
+
+.btnw2{
+background-color: #fff;
+border: none;
+color: #333;
+font-size: 1rem;
+padding: 0.6rem 2.3rem;
+margin-left: 4px;
+text-align: center;
+text-transform: uppercase;
+transition: background-color 0.3s ease;
+text-decoration: none;
+font-family: 'Lato', sans-serif;
+}
+
+.btnw2:hover {
+background-color: #f0f0f0;
+text-decoration: underline;
+border: 1px dashed black;
+}
+
 .lpage{
 background-color: #0d172f;
 margin-left: 1.8%;
