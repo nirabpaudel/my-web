@@ -371,7 +371,7 @@ background-color: #f0f0f0;
 border: 1px dashed black;
 }
 
-@media screen and (max-width: 680px) { .btnw1 { font-size: 0.8rem; padding: 0.4rem 0.5rem; margin-right: 3px; } }
+@media screen and (max-width: 550px) { .btnw1 { font-size: 0.8rem; padding: 0.4rem 0.5rem; margin-right: 3px; } }
 
 .btnw2{
 background-color: #fff;
@@ -392,7 +392,7 @@ background-color: #f0f0f0;
 border: 1px dashed black;
 }
 
-@media screen and (max-width: 680px) { .btnw2 { font-size: 0.8rem; padding: 0.4rem 0.5rem; margin-left: 3px; } }
+@media screen and (max-width: 550px) { .btnw2 { font-size: 0.8rem; padding: 0.4rem 0.5rem; margin-left: 3px; } }
 
 .lpage{
 background-color: #0d172f;
