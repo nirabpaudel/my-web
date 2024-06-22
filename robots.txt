@@ -10,3 +10,5 @@ Disallow: /img/essentials/ext.png
 Disallow: /img/essentials/ko-fi.webp
 Disallow: /img/nirab.jpg
 Disallow: /img/co/*
+Disallow: /img/essentials/spotify.png
+Disallow: /img/essentials/lastfm.png
