@@ -156,7 +156,7 @@ html {
 @media screen and (min-width: 626px) { .bw { display: none; } }
 
 .bgc{
-background-color: #D3D3D3;
+background-color: #d6dbe0;
 color: #000;
 margin: 0;
 padding: 0;
@@ -171,7 +171,7 @@ justify-content: center;
 text-align: center;
 }
 .tpage{
-background-color: #D3D3D3;
+background-color: #d6dbe0;
 margin: 1.8%;
 padding: 0.8%;
 justify-content: center;
@@ -220,7 +220,7 @@ text-decoration: underline;
 @media screen and (max-width: 1000px) { .des { margin-left: 15%; margin-right: 15%; } } @media screen and (max-width: 800px) { .des { margin-left: 10%; margin-right: 10%; } } @media screen and (max-width: 625px) { .des { margin-left: 5%; margin-right: 5%; } }
 @media screen and (max-width: 1000px) { .des2 { margin-left: 15%; margin-right: 15%; } } @media screen and (max-width: 800px) { .des2 { margin-left: 10%; margin-right: 10%; } } @media screen and (max-width: 625px) { .des2 { margin-left: 5%; margin-right: 5%; } }
 .qpage{
-background-color: #D3D3D3;
+background-color: #d6dbe0;
 margin-top: 0%;
 padding-top: 0%;
 margin-bottom: 1.8%;
@@ -295,7 +295,7 @@ background-color: #d3d3d3;
 }
 
 .bgph{ 
-background-color: #D3D3D3;
+background-color: #d6dbe0;
 margin: 1.8%;
 padding: 0.8%;
 justify-content: center;
@@ -348,7 +348,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .btnv:hover {
-background-color: #D3D3D3;
+background-color: #d6dbe0;
 border: 1px dashed black;
 }
 
@@ -367,7 +367,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .btnw1:hover {
-background-color: #D3D3D3;
+background-color: #d6dbe0;
 border: 1px dashed black;
 }
 
@@ -388,7 +388,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .btnw2:hover {
-background-color: #D3D3D3;
+background-color: #d6dbe0;
 border: 1px dashed black;
 }
 
