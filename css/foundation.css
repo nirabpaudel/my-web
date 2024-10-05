@@ -294,6 +294,24 @@ font-family: 'Lato', sans-serif;
 background-color: #d3d3d3;
 }
 
+.btnctmp{
+background-color: #fff;
+border: none;
+color: #333;
+font-size: 1rem;
+padding: 0.6rem 1.6rem;
+text-align: center;
+text-transform: uppercase;
+transition: background-color 0.3s ease;
+margin-bottom: 8rem;
+font-family: 'Lato', sans-serif;
+}
+
+.btnctmp:hover {
+background-color: #a9a9a9;
+color: #fff;
+}
+
 .bgph{ 
 background-color: #e6e3da;
 margin: 1.8%;
