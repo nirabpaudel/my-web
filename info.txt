@@ -1,4 +1,4 @@
-This site "nirabpaudel.com" is hosted through Github Pages https://pages.github.com
+This site "nirabpaudel.com" is published through Github Pages https://pages.github.com
 This site "nirabpaudel.com" is managed through Cloudflare https://cloudflare.com
 The domain "nirabpaudel.com" is registered through Namecheap https://namecheap.com
 The domains "nirab.info.np" and "nirabpaudel.com.np" are registered through Mercantile Communications, Nepal https://register.com.np, https://mercantile.com.np
