@@ -32,6 +32,53 @@
 <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<style type="text/css">
+  .share-main-btn {
+    font-family: Arial, sans-serif; font-size: 18px; -webkit-user-select: none; -ms-user-select: none; user-select: none;
+    height: 22px;
+    padding: 7px; 
+    margin-top: 3px;
+    border: 1px solid black; 
+    border-radius: 2rem; 
+    text-decoration: none; 
+    text-align: center; 
+    display: inline-block; 
+    cursor: pointer; 
+    transition: all 0.5s; 
+    background-color: #0077b5;
+    color: white;
+  }
+  .share-popup {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-top: 8px;
+    z-index: 100;
+  }
+  .share-popup a,
+  .share-popup button {
+    display: block;
+    margin: 6px 0;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .facebook { background: #3b5998; }
+  .twitter { background: #1DA1F2; }
+  .linkedin { background: #0077b5; }
+  .email { background: #D44638; }
+  .whatsapp { background: #25D366; }
+  .copy { background: #555; }
+</style>
 </head>
 <body>
 <div class="tumpage">
@@ -56,7 +103,16 @@ This time, I had an idea. I silently set up cameras around my home to see if I c
         <h1 class="cboxh1">Support the Author</h1>
         <p class="cboxp">You can support me by sharing this story with your family and friends and/or through CashApp.</p>
       </div>
-       <a href="https://cash.app/$NirabP" target="_blank" style="text-decoration: none;" class="btkf"><img src="https://nirab.info.np/img/essentials/cashapp.png" height=17 width=17>&nbsp;&nbsp;$NirabP</a>
+       <a class="share-main-btn" id="shareBtn">Share&nbsp;&nbsp;<img src="https://nirab.info.np/img/essentials/share.png" height=17 width=17></a>
+<div class="share-popup" id="sharePopup">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnirabpaudel.com/the-unknown" target="_blank" class="facebook">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fnirabpaudel.com/the-unknown&text=Check%20this%20out!" target="_blank" class="twitter">X (Formerly Twitter)</a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fnirabpaudel.com/the-unknown" target="_blank" class="linkedin">LinkedIn</a>
+  <a href="mailto:?subject=Check%20this%20out&body=Check%20this%20link%3A%20https%3A%2F%2Fnirabpaudel.com/the-unknown" class="email">Email</a>
+  <a href="https://api.whatsapp.com/send?text=Check%20this%20out%20https%3A%2F%2Fnirabpaudel.com/the-unknown" target="_blank" class="whatsapp">WhatsApp</a>
+  <button class="copy" id="copyBtn">Copy Link</button>
+</div>
+<a href="https://cash.app/$NirabP" target="_blank" style="text-decoration: none;" class="btkf"><img src="https://nirab.info.np/img/essentials/cashapp.png" height=17 width=17>&nbsp;&nbsp;$NirabP</a>
     </div>
     <div class="image-container">
       <img src="https://nirab.info.np/img/nirab2.png" alt="nirab" draggable="false" style="pointer-events: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;"">
@@ -71,6 +127,29 @@ This time, I had an idea. I silently set up cameras around my home to see if I c
 document.addEventListener('contextmenu', event => {
     event.preventDefault();
 });
+</script>
+<script>
+  const shareBtn = document.getElementById('shareBtn');
+  const sharePopup = document.getElementById('sharePopup');
+  const copyBtn = document.getElementById('copyBtn');
+
+  shareBtn.addEventListener('click', () => {
+    sharePopup.style.display = sharePopup.style.display === 'block' ? 'none' : 'block';
+  });
+
+  copyBtn.addEventListener('click', () => {
+    const url = 'https://nirabpaudel.com/the-unknown';
+    navigator.clipboard.writeText(url).then(() => {
+      copyBtn.textContent = 'Copied!';
+      setTimeout(() => copyBtn.textContent = 'Copy Link', 2000);
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!shareBtn.contains(e.target) && !sharePopup.contains(e.target)) {
+      sharePopup.style.display = 'none';
+    }
+  });
 </script>
 </body>
 </html>
