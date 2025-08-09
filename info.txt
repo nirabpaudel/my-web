@@ -1,0 +1,11 @@
+This site "nirabpaudel.com" is hosted through Github Pages https://pages.github.com
+This site "nirabpaudel.com" is managed through Cloudflare https://cloudflare.com
+The domain "nirabpaudel.com" is registered through Namecheap https://namecheap.com
+The domains "nirab.info.np" and "nirabpaudel.com.np" are registered through Mercantile Communications, Nepal https://register.com.np, https://mercantile.com.np
+Our privacy policy can be found at https://nirabpaudel.com/privacy
+Our terms and conditions can be found at https://nirabpaudel.com/terms
+For general inquiries, suggestions, and feedback, you can contact: info@nirabpaudel.com or https://nirabpaudel.com/contact
+For complaints, copyright, or other legal/general questions regarding the usage, terms, and policies of our site: support@nirabpaudel.com
+To subscribe to our mailing list: https://nirabpaudel.com/#subscribe
+To unsubscribe from our mailing list: https://nirabpaudel.com/unsubscribe
+We use Brevo to manage our mailing list, subscriptions, and marketing campaigns https://brevo.com (Previously SendInBlue)
