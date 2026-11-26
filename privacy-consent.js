@@ -1,4 +1,3 @@
-
 (function () {
   'use strict';
 
@@ -37,7 +36,9 @@
   function effectiveCategories(categories) {
     return {
       analytics: categories.analytics === true,
-      marketing: categories.marketing === true && !gpc,
+      // No marketing opt-in can be granted when its checkbox is not displayed.
+      marketing: categories.marketing === true && !gpc &&
+        Boolean(banner && banner.querySelector('#np-consent-marketing')),
       functional: categories.functional === true
     };
   }
@@ -96,6 +97,7 @@
 
   // Load only scripts explicitly labelled with the category the visitor opted into:
   // <script type="text/plain" data-np-consent="functional" data-np-src="https://example.org/widget.js"></script>
+  // Do NOT leave active tracker script tags elsewhere on the site.
   function activateOptInScripts(categories) {
     const candidates = document.querySelectorAll('script[type="text/plain"][data-np-consent]');
     for (const holder of candidates) {
@@ -168,11 +170,11 @@
       <div class="np-consent__top">
         <div class="np-consent__eyebrow">NIRAB PAUDEL / PRIVACY</div>
         <h2 id="np-consent-title">Your privacy, your choice.</h2>
-        <p>We'd like to use optional technologies to understand website visits, support
-        newsletter features, and identify website needs. You can
+        <p>I'd like to use optional technologies to understand website visits, support
+        newsletter features, and—only if enabled—measure advertising. You can
         accept, reject, or choose what works for you. The website remains available
-        even if you reject optional preferences.</p>
-        <p class="np-consent__footnote">Note: Essential functions and privacy preferences
+        even if you reject optional tracking.</p>
+        <p class="np-consent__footnote">Essential functions and privacy preferences
         remain active. Read the <a href="${CONFIG.privacyUrl}">Privacy Policy</a>.</p>
       </div>
       <div class="np-consent__settings" id="np-consent-settings" hidden>
@@ -184,10 +186,12 @@
           <span><strong>Analytics</strong><small>Google Analytics / Tag Manager for usage statistics.</small></span>
           <input type="checkbox" id="np-consent-analytics" />
         </label>
+        <!-- Marketing is intentionally not offered on this website.
         <label class="np-consent__category">
-            <span><strong>Marketing</strong><small>Optional advertising and conversion tracking.</small></span>
+          <span><strong>Marketing</strong><small>Optional advertising and conversion tracking (if configured).</small></span>
           <input type="checkbox" id="np-consent-marketing" />
         </label>
+        -->
         <label class="np-consent__category">
           <span><strong>Functional</strong><small>Optional third-party services, including Brevo form enhancements.</small></span>
           <input type="checkbox" id="np-consent-functional" />
@@ -214,7 +218,7 @@
     document.body.appendChild(floatingButton);
 
     const marketing = banner.querySelector('#np-consent-marketing');
-    marketing.disabled = gpc;
+    if (marketing) marketing.disabled = gpc;
     banner.querySelector('#np-consent-gpc').hidden = !gpc;
     banner.addEventListener('click', (event) => {
       const button = event.target.closest('button[data-np-action]');
@@ -229,7 +233,7 @@
       } else if (action === 'save') {
         storeAndApply({
           analytics: banner.querySelector('#np-consent-analytics').checked,
-          marketing: marketing.checked,
+          marketing: marketing ? marketing.checked : false,
           functional: banner.querySelector('#np-consent-functional').checked
         }, 'custom');
       }
@@ -252,7 +256,8 @@
     if (!initialized) return;
     const values = consent ? effectiveCategories(consent.categories) : denied();
     banner.querySelector('#np-consent-analytics').checked = values.analytics;
-    banner.querySelector('#np-consent-marketing').checked = values.marketing;
+    const marketingInput = banner.querySelector('#np-consent-marketing');
+    if (marketingInput) marketingInput.checked = values.marketing;
     banner.querySelector('#np-consent-functional').checked = values.functional;
     banner.querySelector('#np-consent-settings').hidden = true;
     banner.querySelector('[data-np-action="customize"]').hidden = false;
