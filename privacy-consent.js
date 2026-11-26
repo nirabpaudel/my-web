@@ -193,7 +193,7 @@
         </label>
         -->
         <label class="np-consent__category">
-          <span><strong>Functional</strong><small>Optional third-party services, including Brevo form enhancements.</small></span>
+          <span><strong>Functional</strong><small>Optional third-party services.</small></span>
           <input type="checkbox" id="np-consent-functional" />
         </label>
         <p class="np-consent__gpc" id="np-consent-gpc" hidden>
