@@ -140,3 +140,6 @@
 @media (prefers-reduced-motion: reduce) {
   #np-consent-banner .np-consent__button { transition: none; }
 }
+#np-privacy-shortcut {
+    display: none !important;
+}
