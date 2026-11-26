@@ -168,11 +168,11 @@
       <div class="np-consent__top">
         <div class="np-consent__eyebrow">NIRAB PAUDEL / PRIVACY</div>
         <h2 id="np-consent-title">Your privacy, your choice.</h2>
-        <p>I'd like to use optional technologies to understand website visits, support
-        newsletter features, and—only if enabled—measure advertising. You can
+        <p>We'd like to use optional technologies to understand website visits, support
+        newsletter features, and identify website needs. You can
         accept, reject, or choose what works for you. The website remains available
-        even if you reject optional tracking.</p>
-        <p class="np-consent__footnote">Essential functions and privacy preferences
+        even if you reject optional preferences.</p>
+        <p class="np-consent__footnote">Note: Essential functions and privacy preferences
         remain active. Read the <a href="${CONFIG.privacyUrl}">Privacy Policy</a>.</p>
       </div>
       <div class="np-consent__settings" id="np-consent-settings" hidden>
@@ -184,10 +184,10 @@
           <span><strong>Analytics</strong><small>Google Analytics / Tag Manager for usage statistics.</small></span>
           <input type="checkbox" id="np-consent-analytics" />
         </label>
-        <label class="np-consent__category">
-          <span><strong>Marketing</strong><small>Optional advertising and conversion tracking (if configured).</small></span>
+        <!-- <label class="np-consent__category">
+            <span><strong>Marketing</strong><small>Optional advertising and conversion tracking (if configured).</small></span>
           <input type="checkbox" id="np-consent-marketing" />
-        </label>
+        </label> -->
         <label class="np-consent__category">
           <span><strong>Functional</strong><small>Optional third-party services, including Brevo form enhancements.</small></span>
           <input type="checkbox" id="np-consent-functional" />
