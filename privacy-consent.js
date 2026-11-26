@@ -184,10 +184,10 @@
           <span><strong>Analytics</strong><small>Google Analytics / Tag Manager for usage statistics.</small></span>
           <input type="checkbox" id="np-consent-analytics" />
         </label>
-        <!-- <label class="np-consent__category">
-            <span><strong>Marketing</strong><small>Optional advertising and conversion tracking (if configured).</small></span>
+        <label class="np-consent__category">
+            <span><strong>Marketing</strong><small>Optional advertising and conversion tracking.</small></span>
           <input type="checkbox" id="np-consent-marketing" />
-        </label> -->
+        </label>
         <label class="np-consent__category">
           <span><strong>Functional</strong><small>Optional third-party services, including Brevo form enhancements.</small></span>
           <input type="checkbox" id="np-consent-functional" />
