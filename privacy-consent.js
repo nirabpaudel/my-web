@@ -1,9 +1,4 @@
-/*
- * Nirab Paudel — privacy consent manager (vanilla JS, no dependencies)
- * Version 1.0.0 | Default: no non-essential scripts or tags run
- * Install this on EVERY HTML page, and REMOVE all existing automatic GTM / tracker tags.
- * A consent manager cannot prevent other independently loaded scripts from tracking.
- */
+
 (function () {
   'use strict';
 
@@ -101,7 +96,6 @@
 
   // Load only scripts explicitly labelled with the category the visitor opted into:
   // <script type="text/plain" data-np-consent="functional" data-np-src="https://example.org/widget.js"></script>
-  // Do NOT leave active tracker script tags elsewhere on the site.
   function activateOptInScripts(categories) {
     const candidates = document.querySelectorAll('script[type="text/plain"][data-np-consent]');
     for (const holder of candidates) {
